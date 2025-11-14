@@ -4,15 +4,15 @@
 2. Training and Inference Enhancements: Beam Search Decoding, KV Caching, Gradient Accumulation, Gradient Checkpointing.
 
 ## Hyperparameters:
--    vocab_size = 10000,
--     d_model = 300,
--     num_layers = 3,
--     num_heads = 8,
---     d_ff = 1024,
--    max_seq_length = 64,  
--     batch_size = 32,
--     learning_rate = 3e-4,
--    num_epochs = 3
+- vocab_size = 10000,
+- d_model = 300,
+- num_layers = 3,
+- num_heads = 8,
+- d_ff = 1024,
+- max_seq_length = 64,  
+- batch_size = 32,
+- learning_rate = 3e-4,
+- num_epochs = 3
 
 ## Number of Parameters:
 
