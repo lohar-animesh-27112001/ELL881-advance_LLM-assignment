@@ -110,12 +110,16 @@
 
 ## decoder-only model architecture:
 <img width="856" height="674" alt="architecture_diagram" src="https://github.com/user-attachments/assets/21b9e146-9fd6-4f5c-9f33-98671b157034" />
+
 ## output_ii_attention_visualization.png
 <img width="1516" height="1030" alt="output_i_training_curves" src="https://github.com/user-attachments/assets/a95296f2-b889-4ab1-88f5-e9e8177e2bf1" />
+
 ## output_ii_attention_visualization.png :
 <img width="1202" height="980" alt="output_ii_attention_visualization" src="https://github.com/user-attachments/assets/b3053156-d029-4dd1-b080-e63b84a6d730" />
+
 ## output_iii
 <img width="1402" height="578" alt="output_iii" src="https://github.com/user-attachments/assets/db2f0062-ad8c-4ca8-b58a-0ba252b53ab8" />
+
 ## output_iv
 <img width="290" height="220" alt="output_iv" src="https://github.com/user-attachments/assets/21878b59-0c3a-488b-af13-b784470e9277" />
 
