@@ -1,4 +1,4 @@
-# ELL881-Advance_LLM - Decorder Only Transformer Model From Scratch
+# ELL881 - Advanced LLM - Decorder Only Transformer Model From Scratch
 1. Implementing a Decoder-Only Transformer: The goal of this assignment is to develop a decoder-only transformer language model from scratch.
 
 2. Training and Inference Enhancements: Beam Search Decoding, KV Caching, Gradient Accumulation, Gradient Checkpointing.
