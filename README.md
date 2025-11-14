@@ -78,7 +78,7 @@
 
 
 
-##
+## Run This Commands:
 
   ###
       $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
@@ -98,17 +98,15 @@
       $ cp layers/cc.en.300.bin .
   ###
       $ python transformer_model.py
-  To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
-  
-  $ cd ..
-
-  $ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
-
-  $ cd part-ii/transformer_model-with_fasttext_embeddings/
-
-  $ python transformer_model.py
-
-  To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
+  #### To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
+      $ cd ..
+  ###
+      $ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
+  ###
+      $ cd part-ii/transformer_model-with_fasttext_embeddings/
+  ###
+      $ python transformer_model.py
+  #### To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
 
 decoder-only model architecture:
 <img width="856" height="674" alt="architecture_diagram" src="https://github.com/user-attachments/assets/21b9e146-9fd6-4f5c-9f33-98671b157034" />
