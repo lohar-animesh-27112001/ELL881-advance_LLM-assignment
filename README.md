@@ -111,7 +111,7 @@
 ## decoder-only model architecture:
 <img width="856" height="674" alt="architecture_diagram" src="https://github.com/user-attachments/assets/21b9e146-9fd6-4f5c-9f33-98671b157034" />
 
-## output_ii_attention_visualization.png
+## output_i_training_curves.png
 <img width="1516" height="1030" alt="output_i_training_curves" src="https://github.com/user-attachments/assets/a95296f2-b889-4ab1-88f5-e9e8177e2bf1" />
 
 ## output_ii_attention_visualization.png :
