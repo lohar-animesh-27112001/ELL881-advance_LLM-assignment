@@ -59,33 +59,33 @@ Layer Norms (2 per block): 2 × (296 + 296) = 1,184
 
 ### --------------------------------------------------------------------------------------
 
-$ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
+  $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
 
-$ cd ELL881-advance_LLM-assignment
+  $ cd ELL881-advance_LLM-assignment
 
-$ pip install -r requirements.txt
+  $ pip install -r requirements.txt
 
-$ cd part-i
+  $ cd part-i
 
-$ cd layers
+  $ cd layers
 
-$ python fasttext_model.py
+  $ python fasttext_model.py
 
-$ cd ..
+  $ cd ..
 
-$ cp layers/cc.en.300.bin .
+  $ cp layers/cc.en.300.bin .
 
-$ python transformer_model.py
+  $ python transformer_model.py
 
   To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
   
-$ cd ..
+  $ cd ..
 
-$ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
+  $ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
 
-$ cd part-ii/transformer_model-with_fasttext_embeddings/
+  $ cd part-ii/transformer_model-with_fasttext_embeddings/
 
-$ python transformer_model.py
+  $ python transformer_model.py
 
   To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
 
