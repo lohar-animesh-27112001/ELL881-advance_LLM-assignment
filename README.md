@@ -3,7 +3,7 @@
 
 2. Training and Inference Enhancements: Beam Search Decoding, KV Caching, Gradient Accumulation, Gradient Checkpointing.
 
-## Hyperparameters
+## Hyperparameters:
 
   vocab_size = 10000,
   
@@ -15,13 +15,49 @@
   
   d_ff = 1024,
   
-  max_seq_length = 64,
+  max_seq_length = 64,  
   
   batch_size = 32,
-  
+
   learning_rate = 3e-4,
   
   num_epochs = 3
+
+## Number of Parameters:
+
+  ### 1. Input Embedding:
+  
+      Embedding matrix: 10000 × 300 = 3,000,000
+
+      Projection layer (300→296): 300 × 296 + 296 = 89,096
+
+      Total = 3,089,096
+
+  ### 2. Transformer Blocks (3 layers):
+
+      Per block:
+
+Multi-head Attention:
+
+Q, K, V projections: 3 × (296 × 296 + 296) = 263,736
+
+Output projection: 296 × 296 + 296 = 87,912
+
+Attention total: 351,648
+
+Feed Forward:
+
+First linear: 296 × 1024 + 1024 = 304,128
+
+Second linear: 1024 × 296 + 296 = 303,400
+
+FF total: 607,528
+
+Layer Norms (2 per block): 2 × (296 + 296) = 1,184
+
+
+
+### ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
 
