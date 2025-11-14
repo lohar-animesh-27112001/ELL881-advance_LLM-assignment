@@ -81,28 +81,23 @@
 ##
 
   ###
-  
       $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
-  
   ###
       $ cd ELL881-advance_LLM-assignment
-
-
-
-  $ pip install -r requirements.txt
-
-  $ cd part-i
-
-  $ cd layers
-
-  $ python fasttext_model.py
-
-  $ cd ..
-
-  $ cp layers/cc.en.300.bin .
-
-  $ python transformer_model.py
-
+  ###
+      $ pip install -r requirements.txt
+  ###
+      $ cd part-i
+  ###
+      $ cd layers
+  ###
+      $ python fasttext_model.py
+  ###
+      $ cd ..
+  ###
+      $ cp layers/cc.en.300.bin .
+  ###
+      $ python transformer_model.py
   To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
   
   $ cd ..
