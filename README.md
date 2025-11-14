@@ -16,7 +16,7 @@
 
 ## Model Parameters Breakdown:
 
-### 1. Input Embedding
+### 1. Input Embedding:
 - **Embedding matrix**: 10000 × 300 = 3,000,000
 - **Projection layer** (300→296): 300 × 296 + 296 = 89,096
 - **Total**: 3,089,096
@@ -47,8 +47,6 @@
       Output Layers:     2,970,592
       ────────────────────────────────
       TOTAL:             8,940,768 parameters
-
-
 
 ## Run These Commands:
 
