@@ -42,11 +42,11 @@
 
 ### Total:
 
-      Input Embedding:   3,089,096
+      Input Embedding:    3,089,096
       Transformer Blocks: 2,881,080
-      Output Layers:     2,970,592
+      Output Layers:      2,970,592
       ────────────────────────────────
-      TOTAL:             8,940,768 parameters
+      TOTAL:              8,940,768 parameters
 
 ## Run These Commands:
 
