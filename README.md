@@ -4,18 +4,31 @@
 2. Training and Inference Enhancements: Beam Search Decoding, KV Caching, Gradient Accumulation, Gradient Checkpointing.
 
 $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
+
 $ cd ELL881-advance_LLM-assignment
+
 $ cd part-i
+
 $ cd layers
+
 $ python fasttext_model.py
+
 $ cd ..
+
 $ cp layers/cc.en.300.bin .
+
 $ python transformer_model.py
+
   To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
+  
 $ cd ..
+
 $ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
+
 $ cd part-ii/transformer_model-with_fasttext_embeddings/
+
 $ python transformer_model.py
+
   To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
 
 output_ii_attention_visualization.png
