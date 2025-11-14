@@ -7,6 +7,8 @@ $ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignm
 
 $ cd ELL881-advance_LLM-assignment
 
+$ pip install -r requirements.txt
+
 $ cd part-i
 
 $ cd layers
@@ -31,6 +33,8 @@ $ python transformer_model.py
 
   To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
 
+decoder-only model architecture:
+<img width="856" height="674" alt="architecture_diagram" src="https://github.com/user-attachments/assets/21b9e146-9fd6-4f5c-9f33-98671b157034" />
 output_ii_attention_visualization.png
 <img width="1516" height="1030" alt="output_i_training_curves" src="https://github.com/user-attachments/assets/a95296f2-b889-4ab1-88f5-e9e8177e2bf1" />
 output_ii_attention_visualization.png :
