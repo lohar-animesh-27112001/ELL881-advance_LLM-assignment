@@ -37,23 +37,42 @@
 
       Per block:
 
-Multi-head Attention:
+      Multi-head Attention:
+      
+      Q, K, V projections: 3 × (296 × 296 + 296) = 263,736
+      
+      Output projection: 296 × 296 + 296 = 87,912
+      
+      Attention total: 351,648
+      
+      Feed Forward:
+      
+      First linear: 296 × 1024 + 1024 = 304,128
+      
+      Second linear: 1024 × 296 + 296 = 303,400
+      
+      FF total: 607,528
+      
+      Layer Norms (2 per block): 2 × (296 + 296) = 1,184
 
-Q, K, V projections: 3 × (296 × 296 + 296) = 263,736
+      Per block total: 351,648 + 607,528 + 1,184 = 960,360
 
-Output projection: 296 × 296 + 296 = 87,912
+      3 blocks total: 3 × 960,360 = 2,881,080
 
-Attention total: 351,648
+  ### 3. Output Layers:
+  
+      Final LayerNorm: 296 + 296 = 592
+      
+      Output linear: 296 × 10000 + 10000 = 2,970,000
+      
+      Total: 2,970,592
+  ### Total:
 
-Feed Forward:
-
-First linear: 296 × 1024 + 1024 = 304,128
-
-Second linear: 1024 × 296 + 296 = 303,400
-
-FF total: 607,528
-
-Layer Norms (2 per block): 2 × (296 + 296) = 1,184
+      Input Embedding:   3,089,096
+      Transformer Blocks: 2,881,080
+      Output Layers:     2,970,592
+      ────────────────────────────────
+      TOTAL:             8,940,768 parameters
 
 
 
