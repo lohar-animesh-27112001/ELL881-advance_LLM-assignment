@@ -2,3 +2,26 @@
 1. Implementing a Decoder-Only Transformer: The goal of this assignment is to develop a decoder-only transformer language model from scratch.
 
 2. Training and Inference Enhancements: Beam Search Decoding, KV Caching, Gradient Accumulation, Gradient Checkpointing.
+
+$ git clone https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment.git
+$ cd ELL881-advance_LLM-assignment
+$ cd part-i
+$ cd layers
+$ python fasttext_model.py
+$ cd ..
+$ cp layers/cc.en.300.bin .
+$ python transformer_model.py
+  To run this Python file, you need 32GB of RAM. You can run it on Google Colab.
+$ cd ..
+$ cp part-i/cc.en.300.bin part-ii/transformer_model-with_fasttext_embeddings/
+$ cd part-ii/transformer_model-with_fasttext_embeddings/
+$ python transformer_model.py
+  To run this Python file, you need 40GB of RAM. You can run it on Google Colab.
+
+output_ii_attention_visualization.png
+<img width="1516" height="1030" alt="output_i_training_curves" src="https://github.com/user-attachments/assets/a95296f2-b889-4ab1-88f5-e9e8177e2bf1" />
+output_ii_attention_visualization.png :
+<img width="1202" height="980" alt="output_ii_attention_visualization" src="https://github.com/user-attachments/assets/b3053156-d029-4dd1-b080-e63b84a6d730" />
+<img width="1402" height="578" alt="output_iii" src="https://github.com/user-attachments/assets/db2f0062-ad8c-4ca8-b58a-0ba252b53ab8" />
+<img width="290" height="220" alt="output_iv" src="https://github.com/user-attachments/assets/21878b59-0c3a-488b-af13-b784470e9277" />
+
