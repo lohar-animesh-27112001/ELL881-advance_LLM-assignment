@@ -33,7 +33,7 @@
   - FF total: 607,528
 - **Layer Norms** (2 per block): 2 × (296 + 296) = 1,184
 - **Per block total**: 351,648 + 607,528 + 1,184 = 960,360
-**3 blocks total**: 3 × 960,360 = 2,881,080
+- **3 blocks total**: 3 × 960,360 = 2,881,080
 
 ### 3. Output Layers:
 - **Final LayerNorm**: 296 + 296 = 592
